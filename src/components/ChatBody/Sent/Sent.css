@@ -1,0 +1,9 @@
+.sent {
+    border-radius: 50px 30px 5px 50px;
+    font-size: 14px;
+    border: 1px solid #85a2f0;
+    background-color: #85a2f0;
+    margin-left: auto;
+    color: #FFF;
+    padding-left: 2rem !important;
+}

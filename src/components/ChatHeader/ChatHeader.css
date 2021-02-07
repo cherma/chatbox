@@ -1,0 +1,28 @@
+.chatbot-header {
+    display: flex;
+    height: 3rem;
+    padding-top: 0.5rem;
+}
+
+.chatbot-header__profile {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.chatbot-header__profile--name {
+    padding: 0 0.5rem;
+}
+
+.chatbot-header__profile--img img{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+}
+
+.chatbot-header__back, .chatbot-header__options {
+    display: flex;
+    cursor: pointer;
+    width: 1rem;
+    padding: 0 1rem;
+}

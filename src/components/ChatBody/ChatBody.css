@@ -1,0 +1,25 @@
+.chat-body {
+    height: calc(80vh - 7rem);
+    padding: 0 1rem;
+    overflow: auto;
+}
+
+.chat-body::-webkit-scrollbar {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .chat-body {
+        height: calc(100vh - 7rem);
+    }
+}
+  
+
+.msg {
+    padding: 8px; 
+    max-width: 200px;
+    width: fit-content;
+    font-size: 14px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
